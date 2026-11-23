@@ -3,7 +3,7 @@
 
 An automated IoT data pipeline built with **Node-RED** that periodically fetches real-time weather data for Milan, Italy, transforms the payload, and publishes temperature and humidity telemetry to **ThingSpeak** via **MQTT**.
 
-![Node-RED Flow Architecture](assets/nodered-flow.png)
+![Node-RED Flow Architecture](noderedflow.png)
 
 ## Architecture & Data Flow
 
@@ -20,7 +20,7 @@ An automated IoT data pipeline built with **Node-RED** that periodically fetches
 
 ```text
 ├── assets/
-│   └── nodered-flow.png        # Visual overview of the Node-RED workspace
+│   └── noderedflow.png        # Visual overview of the Node-RED workspace
 ├── flows/
-│   └── flows.json              # Exported Node-RED flow configuration
+│   └── progetto_monitoraggio_meteo.json              # Exported Node-RED flow configuration
 └── README.md
